@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module pnm</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>pnm</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cmixkr%5Cdesktop%5Ca%5Cpnm.py">c:\users\mixkr\desktop\a\pnm.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="pnm.html#pnmImage">pnmImage</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="pnmImage">class <strong>pnmImage</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Класс&nbsp;для&nbsp;работы&nbsp;с&nbsp;файлами&nbsp;в&nbsp;pnm&nbsp;формате<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-__init__"><strong>__init__</strong></a>(self)</dt><dd><tt>Создание&nbsp;переменных&nbsp;для&nbsp;последуещей&nbsp;работы&nbsp;с&nbsp;pnm&nbsp;файлами<br>
+type&nbsp;-&nbsp;тип&nbsp;файла<br>
+info&nbsp;-&nbsp;ширина&nbsp;и&nbsp;высота&nbsp;в&nbsp;исходном&nbsp;формате<br>
+buffer&nbsp;-&nbsp;массив&nbsp;пикселей<br>
+rgd&nbsp;-&nbsp;максимальное&nbsp;значение&nbsp;цвета<br>
+size&nbsp;-&nbsp;ширина&nbsp;и&nbsp;высота&nbsp;в&nbsp;нужном&nbsp;формате</tt></dd></dl>
+ <dl><dt><a name="-open"><strong>open</strong></a>(self, path)</dt><dd><tt>:param&nbsp;self:&nbsp;класс<br>
+:param&nbsp;path:&nbsp;путь&nbsp;к&nbsp;открываемому&nbsp;файлу<br>
+:return:&nbsp;Sucess&nbsp;при&nbsp;успешном&nbsp;выполнении<br>
+&nbsp;<br>
+При&nbsp;открытии&nbsp;файла&nbsp;проверяет&nbsp;открыт&nbsp;ли&nbsp;он&nbsp;и&nbsp;является&nbsp;ли&nbsp;файлом&nbsp;pnm<br>
+Считывает&nbsp;всю&nbsp;необходимую&nbsp;информацию&nbsp;для&nbsp;файла</tt></dd></dl>
+ <dl><dt><a name="-save"><strong>save</strong></a>(self, path)</dt><dd><tt>:param&nbsp;self:&nbsp;класс<br>
+:param&nbsp;path:&nbsp;путь&nbsp;к&nbsp;сохранненому&nbsp;файлу<br>
+&nbsp;<br>
+Открываем&nbsp;файл,&nbsp;а&nbsp;затем&nbsp;записываем&nbsp;все&nbsp;переменные&nbsp;в&nbsp;новый&nbsp;файл</tt></dd></dl>
+</td></tr></table>
+</body></html>
