@@ -32,3 +32,16 @@ class pnmImage(object):
         self.buffer = file.read()
         file.close()
         return "Success"
+
+    
+
+    def save(self, path):
+        file = open(path, 'wb')
+        # add out exception
+        if file.closed:
+            print("not open")
+        file.write(self.type)
+        file.write(self.info)
+        file.write(self.rgb)
+        file.write(self.buffer)
+        file.close()
